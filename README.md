@@ -1,5 +1,5 @@
 # angular-bootstrap-validation
-This is based on the excellent work of <a href="https://github.com/paulyoder/angular-bootstrap-show-errors">Paul Yoder</a>. I added some changes to use Bootstrap tooltips for error messages and to get feedback (aka "has-feedback") into the mix.
+This is based on the excellent work of <a href="https://github.com/paulyoder/angular-bootstrap-show-errors">Paul Yoder</a>. I added some changes to use Bootstrap tooltips for error messages and to get feedback (aka "has-feedback" check and X's) into the mix.
 
 The "error-message" tag contains the message for a particular validator. So, in this example "required" and "minlength" will show with those messages and no special effort is needed.
 
