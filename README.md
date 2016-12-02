@@ -6,17 +6,36 @@ The "error-message" tag contains the message for a particular validator. So, in 
 Representative example:
 ```
 <style type="text/css">
-    error-message {
-      display: none;
-    }
+	error-message {
+		display: none;
+	}
 	
-    .form-group.has-feedback .tooltip-inner {
-      background-color: red;
-    }
+	.form-group .tooltip.top .tooltip-arrow {
+		border-top-color: #a94442;
+	}
 
-    .form-group.has-feedback .tooltip-arrow {
-      border-top-color: red;
-    }
+	.form-group .tooltip-inner {
+		background-color: #a94442;
+	}
+
+	.form-group .tooltip-arrow {
+	}
+
+	.has-success .form-control {
+	  border-left-width: 6px;
+	}
+
+	.has-success .input-group .form-control {
+	  border-left-width: 1px;
+	}
+
+	.has-error .form-control {
+	  border-left-width: 6px;
+	}
+
+	.has-error .input-group .form-control {
+	  border-left-width: 1px;
+	}
 </style>
 ```
 
